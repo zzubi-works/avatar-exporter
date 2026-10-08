@@ -5,7 +5,7 @@ Files to publish (GitHub repository `zzubi-works/avatar-exporter`, no push is do
 1. `index.json` → the repository's `main` branch root. Listing URL: `https://raw.githubusercontent.com/zzubi-works/avatar-exporter/main/index.json`
    Users add it in ALCOM / VCC: `vcc://vpm/addRepo?url=https://raw.githubusercontent.com/zzubi-works/avatar-exporter/main/index.json`
 2. `com.curiousbobby.avatar-exporter-1.0.0.zip` → a GitHub release tagged `v1.0.0` (asset name unchanged). The index points at
-   `https://github.com/zzubi-works/avatar-exporter/releases/download/v1.0.0/com.curiousbobby.avatar-exporter-1.0.0.zip` and carries its SHA-256 (`60dca46da7d261f00439c39d9769908376ec1cb32669019a388571c40454d33d`), so ALCOM / VCC verify the download.
+   `https://github.com/zzubi-works/avatar-exporter/releases/download/v1.0.0/com.curiousbobby.avatar-exporter-1.0.0.zip` and carries its SHA-256 (`37442015fb73120a01bd2438583514e4902a461a04f6a6194a24bbdd289ce1f3`), so ALCOM / VCC verify the download.
 
 Updates: build the next version (tools/pack_commercial.py merges it into this index.json, newest first), publish the new zip as a
 release `v<version>` and replace index.json on `main`. ALCOM / VCC show the update in the project's package list.
