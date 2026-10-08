@@ -1,0 +1,36 @@
+{
+  "name": "Curious Bobby",
+  "id": "com.curiousbobby.vpm",
+  "url": "https://raw.githubusercontent.com/zzubi-works/avatar-exporter/main/index.json",
+  "author": "Curious Bobby Co.",
+  "packages": {
+    "com.curiousbobby.avatar-exporter": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.curiousbobby.avatar-exporter",
+          "displayName": "Curious Bobby - Avatar Exporter",
+          "version": "1.0.0",
+          "unity": "2022.3",
+          "description": "Exports VRChat avatars (.vavatar) and props (.vprop) for Avatar Live. Menu: Curious Bobby > Avatar Exporter / Prop Exporter. English, 한국어, 日本語, 简体中文.",
+          "author": {
+            "name": "Curious Bobby Co.",
+            "url": "https://github.com/zzubi-works"
+          },
+          "license": "See LICENSE.md",
+          "keywords": [
+            "avatar live",
+            "vrchat",
+            "exporter",
+            "curious bobby"
+          ],
+          "vpmDependencies": {},
+          "legacyFolders": {},
+          "legacyFiles": {},
+          "hideInEditor": false,
+          "url": "https://github.com/zzubi-works/avatar-exporter/releases/download/v1.0.0/com.curiousbobby.avatar-exporter-1.0.0.zip",
+          "zipSHA256": "60dca46da7d261f00439c39d9769908376ec1cb32669019a388571c40454d33d"
+        }
+      }
+    }
+  }
+}
